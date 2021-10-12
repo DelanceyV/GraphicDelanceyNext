@@ -1,5 +1,6 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import Layout from '../components/layout';
-import '../components/styles.css';
+import '../components/styles.modules.css';
 import Head from 'next/head';
 
 export default function App({ Component, pageProps }) {
@@ -7,10 +8,10 @@ export default function App({ Component, pageProps }) {
     <Layout>
       <Head>
         <title>Graphic Delancey</title>
-        <link rel="icon" href="/Favicon.ico" />
+        <link rel='icon' href='/Favicon.ico' />
         <link
-          rel="stylesheet"
-          href="https://use.typekit.net/rym1jja.css"
+          rel='stylesheet'
+          href='https://use.typekit.net/rym1jja.css'
         />
       </Head>
       <Component {...pageProps} />
