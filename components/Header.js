@@ -3,6 +3,7 @@ import { Nav, Navbar, NavbarToggler, Collapse, NavItem, Jumbotron, NavLink, Navb
 import Image from 'next/image';
 import logoImg from '../public/images/graphicDelanceyWord_ImageLogoWhiteLines.png';
 import faviconImg from '../public/images/Favicon.png';
+// import imgLoader from './imgLoader';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,6 +15,7 @@ const Header = () => {
         <Navbar fixed='top' expand='lg'>
           <NavbarBrand onClick={toggle}>
             <Image
+              // loader={imgLoader}
               src={faviconImg}
               alt='GD logo'
               height={30}
@@ -50,6 +52,7 @@ const Header = () => {
             <div className='col'>
               <a href='/'>
               <Image
+                // loader={imgLoader}
                 src={logoImg}
                 alt='Graphic Delancey logo'
                 width={1000}

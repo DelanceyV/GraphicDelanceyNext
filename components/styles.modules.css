@@ -90,6 +90,17 @@ main {
   transition: color 0.15s ease, border-color 0.15s ease;
 } 
 
+/* .cardImg {
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+
+.card-body {
+  display: block;
+  z-index: 100;
+} */
+
 .card:hover {
   background: none;
   -webkit-background-clip: none;
