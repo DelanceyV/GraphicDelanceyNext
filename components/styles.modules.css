@@ -99,6 +99,14 @@ main {
   text-decoration: none;
 }
 
+.card:hover a {
+  background: none;
+  -webkit-background-clip: none;
+  background-clip: none;
+  -webkit-text-fill-color: black;
+  text-decoration: none;
+}
+
 a .card:hover {
   color: white;
   background: -webkit-linear-gradient(left, rgba(228, 164, 85), rgba(255, 246, 139), rgba(130, 182, 106));
@@ -108,14 +116,24 @@ a .card:hover {
   text-decoration: none;
 }
 
-a, .nav-link {
+a:hover {
+ opacity: .7;
+}
+
+.nav-item a {
   text-decoration: none;
   color: rgb(228, 164, 85);
 }
 
-a:hover {
+/* .card:hover a  {
+  text-decoration: none;
+  color: black;
+  background: none;
+  -webkit-background-clip: none;
+  background-clip: none;
+  -webkit-text-fill-color: black;
   opacity: .5;
-}
+} */
 
 .message {
   margin-top: 1rem;
